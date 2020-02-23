@@ -87,6 +87,7 @@
             this.btnClean.TabIndex = 30;
             this.btnClean.Text = "Limpar";
             this.btnClean.UseVisualStyleBackColor = false;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // btnDiv
             // 
@@ -99,6 +100,7 @@
             this.btnDiv.TabIndex = 29;
             this.btnDiv.Text = "Divisão";
             this.btnDiv.UseVisualStyleBackColor = false;
+            this.btnDiv.Click += new System.EventHandler(this.btnDiv_Click);
             // 
             // btnMult
             // 
@@ -111,6 +113,7 @@
             this.btnMult.TabIndex = 28;
             this.btnMult.Text = "Multiplicação";
             this.btnMult.UseVisualStyleBackColor = false;
+            this.btnMult.Click += new System.EventHandler(this.btnMult_Click);
             // 
             // btnSub
             // 
@@ -123,6 +126,7 @@
             this.btnSub.TabIndex = 27;
             this.btnSub.Text = "Subtração";
             this.btnSub.UseVisualStyleBackColor = false;
+            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
             // 
             // btnSum
             // 
@@ -135,6 +139,7 @@
             this.btnSum.TabIndex = 26;
             this.btnSum.Text = "Soma";
             this.btnSum.UseVisualStyleBackColor = false;
+            this.btnSum.Click += new System.EventHandler(this.btnSum_Click);
             // 
             // label2
             // 
